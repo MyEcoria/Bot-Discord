@@ -22,7 +22,12 @@ async def bonjour(ctx):
 @bot.command()
 async def don(ctx):
         nanoAdresse = "nano_3qbb3pn5yhiqkrqztfn7q4ffjo73szz4z5e7hp838uaa4e195oooiowwmyb5"
-        await ctx.send(f"Mon Adresse nano: \n **{nanoAdresse}**")
+        ethereumAdresse = "0x3b34E0F5d167FE4CacC48c7C8d31437db4ac0a6B"
+        await ctx.send(f"**Me faire un don:**")
+        await ctx.send(f"\n")
+        await ctx.send(f"nano: `{nanoAdresse}`")
+        await ctx.send(f"\n")
+        await ctx.send(f"Ethereum: `{ethereumAdresse}`")
 
 @bot.command()
 async def serverInfo(ctx):
