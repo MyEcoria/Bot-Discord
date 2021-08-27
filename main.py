@@ -11,7 +11,7 @@ async def on_ready():
 async def coucou(ctx):
         server = ctx.guild
         serverDiscordNameCoucou = server.name
-        await ctx.send(f"Coucou jeune **padawan** et bienvenue sur le serveur de **{serverDiscordNameCoucou} 
+        await ctx.send(f"Coucou jeune **padawan** et bienvenue sur le serveur de **{serverDiscordNameCoucou}")
 
 @bot.command()
 async def bonjour(ctx):
