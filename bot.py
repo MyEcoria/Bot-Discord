@@ -29,11 +29,15 @@ async def don(ctx):
 
 @bot.command()
 async def commandesInfos(ctx):
-        await ctx.send(f"Les commandes de ce bot son: \n `!coucou` \n `!bonjour` \n `!don` \n `!serverInfo` \n `!commandesInfos`")
+        await ctx.send(f"Les commandes de ce bot son: \n `!coucou` \n `!bonjour` \n `!don` \n `!serverInfo` \n `!commandesInfos` \n `!films` \n `!twitchlive`")
 
 @bot.command()
 async def films(ctx):
-        await ctx.send(f"**Liste des films disponibles grace Ã  DoudouxBot:** \n \n **[AstÃ©rix et ObÃ©lix : Mission ClÃ©opÃ¢tre | FR] => ( https://bit.ly/3BfuQe7 )** \n **[Supercondriaque | FR] => ( https://bit.ly/3jnjxKB )** \n **[Demon Slayer | FR] => ( https://bit.ly/3yjaluZ )** \n **[Radin ! | FR] => ( https://bit.ly/3kulIeH )** \n **[Mulan | FR] => ( https://bit.ly/3Bn8RSD )** \n **[Patients | FR] => ( https://bit.ly/3jtbRqx )**")
+        await ctx.send(f"**Liste des films disponibles grace Ã  DoudouxBot:** \n \n **https://bit.ly/3BfuQe7 \n https://bit.ly/3jnjxKB \n https://bit.ly/3yjaluZ \n https://bit.ly/3kulIeH \n https://bit.ly/3Bn8RSD \n https://bit.ly/3jtbRqx **")
+
+@bot.command()
+async def twitchlive(ctx):
+        await ctx.send(f"**La chaine twitch de DoudouxGamingBzh: https://www.twitch.tv/doudouxgamingbzh**")
 
 @bot.command()
 async def serverInfo(ctx):
