@@ -29,11 +29,7 @@ async def don(ctx):
 
 @bot.command()
 async def commandesInfos(ctx):
-        await ctx.send(f"Les commandes de ce bot son: \n `!coucou` \n `!bonjour` \n `!don` \n `!serverInfo` \n `!commandesInfos` \n `!films`")
-
-@bot.command()
-async def films(ctx):
-        await ctx.send(f"**Liste des films disponibles grace Ã  DoudouxBot:** \n \n **https://bit.ly/3BfuQe7 \n https://bit.ly/3jnjxKB \n https://bit.ly/3yjaluZ \n https://bit.ly/3kulIeH \n https://bit.ly/3Bn8RSD \n https://bit.ly/3jtbRqx **")
+        await ctx.send(f"Les commandes de ce bot son: \n `!coucou` \n `!bonjour` \n `!don` \n `!serverInfo` \n `!commandesInfos`")
 
 @bot.command()
 async def serverInfo(ctx):
